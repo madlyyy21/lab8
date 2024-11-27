@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Визитка Егорыч</title>
+    <link rel="StyleSheet" href="style.css">
+    <script>
+        function showAlert() {
+            alert("Шнапс сейчас чилит с братвой, поэтому ваша заявка рассмотрится позже");
+        }
+    </script>
+</head>
+<body>
+    <nav class="nav-menu">
+        <a href="#me">Шнапс</a>
+        <a href="#services">Услуги</a>
+        <a href="#technologies">Технологии</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#" onclick="showAlert()" class="button">Оставить заявку</a>
+    </nav>
+
+    <section id="me" class="section">
+        <div class="container">
+            <div class="item image">
+                <img src="me.png" alt="Фото Шнапса" width="500px">
+            </div>
+            <div class="item content">
+                <h1>Приветствую на своей web-странице!</h1>
+                <p class="intro-text">
+                    Меня зовут Шнапс!
+                </p>
+                <p>(Список предоставляемых услуг ниже во вкладке «Услуги»)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Услуги</h2>
+        <div class="container2">
+            <div class="service-item">
+                <h3>Кайфануть</h3>
+                <img src="ponchic.png" alt="Услуга 1" width="360px">
+            </div>
+            <div class="service-item">
+                <h3>Прикрыть вас на паре</h3>
+                <img src="cvb.png" alt="Услуга 2" width="360px">
+            </div>
+            <div class="service-item">
+                <h3>Жёстко раскумариться</h3>
+                <img src="raskumar.png" alt="Услуга 3" width="360px">
+            </div>
+            <div class="service-item">
+                <h3>Почистить картофан</h3>
+                <img src="bulba.png" alt="Услуга 4" width="360px">
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="section">
+        <h2>Технологии, которыми я владею</h2>
+        <div class="technology-grid">
+            <div class="technology-card">
+                <img src="vrem.png" alt="HTML" class="icon">
+                <h3>Управление временем</h3>
+                <p>.</p>
+            </div>
+            <div class="technology-card">
+                <img src="gram.png" alt="CSS" class="icon">
+                <h3>Финансовая грамотность</h3>
+                <p>Не пропиваю степендию за неделю.</p>
+            </div>
+            <div class="technology-card">
+                <img src="mozg.png" alt="360px" class="icon">
+                <h3>Критическое мышление</h3>
+                <p>Неплохо шпилю в шахматы.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="section">
+        <h2>Контакты</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_.mad._ly/?igsh=bndiMjdqNTE4cnl1" target="_blank">Insta</a>
+            <a href="https://steamcommunity.com/profiles/76561199387914576" target="_blank">Steam</a>
+        </div>
+    </section>
+</body>
+</html>
